@@ -2,15 +2,252 @@
     "users": [
         {
             "id": 1,
-            "fullName": "Tony Stark",
-            "email": "tony@mcu.com",
-            "phone": "001-123-4567"
-        }, 
+            "fullName": "Ryan Rippin",
+            "birthDate": "1987-03-05T22:25:24.816Z",
+            "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/908.jpg",
+            "email": "Arnold69@gmail.com",
+            "username": "Corine.Wuckert",
+            "password": "kFseUHuoLlRXUvA",
+            "bio": "Id rem pariatur rem exercitationem."
+        },
         {
             "id": 2,
-            "fullName": "Black Widow",
-            "email": "black-widow@mcu.com",
-            "phone": "001-123-4568"
+            "fullName": "Ismael Stoltenberg",
+            "birthDate": "1992-10-27T04:04:20.566Z",
+            "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/586.jpg",
+            "email": "Luella_McDermott36@gmail.com",
+            "username": "Hilda_Larson",
+            "password": "03N2CZQFdBqDg2B",
+            "bio": "Error quidem fugit minima iste fuga earum ad provident illo."
+        },
+        {
+            "id": 3,
+            "fullName": "Lucas Lockman",
+            "birthDate": "1979-03-23T07:44:31.051Z",
+            "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/790.jpg",
+            "email": "Lacey_Hoppe15@gmail.com",
+            "username": "Derrick10",
+            "password": "8VyoXzNgtdKLiLu",
+            "bio": "Possimus totam nisi ab quae doloremque aspernatur."
+        },
+        {
+            "id": 4,
+            "fullName": "Dr. Whitney Bernier",
+            "birthDate": "2001-01-23T07:07:45.737Z",
+            "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/575.jpg",
+            "email": "Frank_Russel1@gmail.com",
+            "username": "Philip.Williamson80",
+            "password": "lySAXDYjr_HOWTx",
+            "bio": "Labore eum quod fugiat placeat."
+        }
+    ],
+    "posts": [
+        {
+            "id": 1,
+            "userId": 1,
+            "title": "Magni quidem quasi ipsa quam ad illum adipisci.",
+            "body": "Deserunt ipsam incidunt. Error similique amet. Modi corporis et possimus molestias quos occaecati ad sit.",
+            "category": "technics",
+            "publicationDate": "2022-09-16T11:25:24.375Z",
+            "images": [
+                "https://loremflickr.com/800/600/technics?lock=4914",
+                "https://loremflickr.com/800/600/technics?lock=21602",
+                "https://loremflickr.com/800/600/technics?lock=99490",
+                "https://loremflickr.com/800/600/technics?lock=23067"
+            ]
+        },
+        {
+            "id": 2,
+            "userId": 1,
+            "title": "Ipsa doloremque distinctio vitae dicta praesentium quae inventore fugiat.",
+            "body": "Perferendis fugiat soluta consequatur consequatur assumenda officiis reprehenderit minus deserunt. Incidunt dolorum a blanditiis debitis ducimus tenetur nulla.",
+            "category": "sports",
+            "publicationDate": "2022-12-17T23:06:07.715Z",
+            "images": [
+                "https://loremflickr.com/800/600/sports?lock=93848",
+                "https://loremflickr.com/800/600/sports?lock=65915",
+                "https://loremflickr.com/800/600/sports?lock=80718",
+                "https://loremflickr.com/800/600/sports?lock=72403"
+            ]
+        },
+        {
+            "id": 3,
+            "userId": 1,
+            "title": "Veritatis amet cupiditate.",
+            "body": "Dolore dignissimos sed culpa. Ratione repellendus optio consectetur reiciendis quos cupiditate. Illum cum omnis aut a.",
+            "category": "fashion",
+            "publicationDate": "2022-06-29T02:38:04.744Z",
+            "images": [
+                "https://loremflickr.com/800/600/fashion?lock=38362",
+                "https://loremflickr.com/800/600/fashion?lock=50195",
+                "https://loremflickr.com/800/600/fashion?lock=71153",
+                "https://loremflickr.com/800/600/fashion?lock=43342",
+                "https://loremflickr.com/800/600/fashion?lock=16896"
+            ]
+        },
+        {
+            "id": 4,
+            "userId": 1,
+            "title": "Atque eveniet similique pariatur maxime dolorem a expedita sint.",
+            "body": "Placeat eos officiis voluptate voluptatibus earum libero modi. Modi fugit beatae voluptatum inventore aspernatur corporis nesciunt. Culpa quaerat fugit fuga in rerum expedita. Blanditiis at totam autem officia vero. Voluptates sed excepturi soluta.",
+            "category": "nature",
+            "publicationDate": "2022-05-25T12:57:31.712Z",
+            "images": [
+                "https://loremflickr.com/800/600/nature?lock=92160",
+                "https://loremflickr.com/800/600/nature?lock=66600"
+            ]
+        },
+        {
+            "id": 5,
+            "userId": 2,
+            "title": "Est distinctio cumque dolor ea et ullam ratione.",
+            "body": "Aut quisquam perferendis sit voluptatum. Est est ut. Molestiae animi laudantium unde ex recusandae ullam rerum neque. Beatae ratione dolore quos laudantium aperiam.",
+            "category": "transport",
+            "publicationDate": "2022-03-28T21:33:25.625Z",
+            "images": [
+                "https://loremflickr.com/800/600/transport?lock=69244",
+                "https://loremflickr.com/800/600/transport?lock=3364",
+                "https://loremflickr.com/800/600/transport?lock=29536"
+            ]
+        },
+        {
+            "id": 6,
+            "userId": 2,
+            "title": "Laborum odio quod atque sed veniam.",
+            "body": "Saepe perferendis asperiores nesciunt fugit doloribus quisquam. Minus quia qui maiores tempore sunt ut. Voluptates deserunt accusamus vitae ipsa omnis alias. Itaque at rerum sint non animi sunt saepe voluptatem.",
+            "category": "abstract",
+            "publicationDate": "2023-01-25T07:36:38.043Z",
+            "images": [
+                "https://loremflickr.com/800/600/abstract?lock=68632"
+            ]
+        },
+        {
+            "id": 7,
+            "userId": 2,
+            "title": "Consectetur modi eligendi saepe necessitatibus.",
+            "body": "Tempora cupiditate eum. Eaque assumenda quisquam neque dolorem nam corrupti maxime doloribus nihil. Earum atque placeat deleniti suscipit odit. Dolorem labore veniam laborum amet magni. Omnis architecto sed omnis facere cum unde deserunt vero iste.",
+            "category": "business",
+            "publicationDate": "2022-12-16T05:22:44.412Z",
+            "images": [
+                "https://loremflickr.com/800/600/business?lock=70344",
+                "https://loremflickr.com/800/600/business?lock=75227"
+            ]
+        },
+        {
+            "id": 8,
+            "userId": 2,
+            "title": "Sit praesentium cupiditate cumque.",
+            "body": "Neque voluptatibus doloribus placeat autem assumenda maxime cupiditate est. Assumenda reiciendis perferendis iusto. Incidunt ut perferendis harum libero ipsa.",
+            "category": "cats",
+            "publicationDate": "2023-01-15T11:11:46.870Z",
+            "images": [
+                "https://loremflickr.com/800/600/cats?lock=7193"
+            ]
+        },
+        {
+            "id": 9,
+            "userId": 3,
+            "title": "Adipisci sequi est.",
+            "body": "Accusamus amet rerum error ad corrupti voluptatem. Consectetur ipsum suscipit ea reiciendis suscipit rem. Id labore sed dolores quidem delectus. Culpa doloremque inventore fuga sequi quidem iste quasi.",
+            "category": "technics",
+            "publicationDate": "2022-12-05T07:45:37.105Z",
+            "images": [
+                "https://loremflickr.com/800/600/technics?lock=42765",
+                "https://loremflickr.com/800/600/technics?lock=22324"
+            ]
+        },
+        {
+            "id": 10,
+            "userId": 3,
+            "title": "Occaecati explicabo vitae veniam.",
+            "body": "Pariatur totam ipsum voluptate temporibus. Quisquam laboriosam fugiat aperiam cumque ut inventore nisi. Eum labore doloribus vero occaecati laborum quia assumenda tempore soluta.",
+            "category": "sports",
+            "publicationDate": "2022-06-10T06:58:08.922Z",
+            "images": [
+                "https://loremflickr.com/800/600/sports?lock=44198",
+                "https://loremflickr.com/800/600/sports?lock=96689",
+                "https://loremflickr.com/800/600/sports?lock=52108",
+                "https://loremflickr.com/800/600/sports?lock=25808"
+            ]
+        },
+        {
+            "id": 11,
+            "userId": 3,
+            "title": "Consequatur distinctio non sapiente ipsam eius nam laudantium.",
+            "body": "Cum minus repudiandae quas illum distinctio laborum consequatur delectus. Delectus sequi at neque labore ratione tempora inventore a voluptate. Enim ex quisquam earum. Commodi libero eius dignissimos corrupti. Rerum laudantium saepe ipsum enim magnam eos.",
+            "category": "animals",
+            "publicationDate": "2023-02-13T06:40:14.560Z",
+            "images": [
+                "https://loremflickr.com/800/600/animals?lock=4608",
+                "https://loremflickr.com/800/600/animals?lock=14781",
+                "https://loremflickr.com/800/600/animals?lock=43659"
+            ]
+        },
+        {
+            "id": 12,
+            "userId": 3,
+            "title": "Soluta illum aperiam illum excepturi ea.",
+            "body": "Illum numquam voluptatem itaque atque ad error animi. Voluptatibus quia omnis minima laboriosam itaque quo voluptatem. Temporibus natus explicabo corporis tenetur enim repellat optio vero. Facere veritatis accusantium dolorem debitis quae. Animi fugiat accusamus architecto ab officia.",
+            "category": "nightlife",
+            "publicationDate": "2022-06-02T20:27:55.250Z",
+            "images": [
+                "https://loremflickr.com/800/600/nightlife?lock=40717"
+            ]
+        },
+        {
+            "id": 13,
+            "userId": 4,
+            "title": "Placeat minus iusto delectus.",
+            "body": "Consequatur tempore magni sed odio ullam consequuntur officia modi. Sequi autem at aut aliquam molestiae. Quia aspernatur repudiandae praesentium. Perspiciatis fugit quod praesentium placeat.",
+            "category": "transport",
+            "publicationDate": "2022-08-07T05:16:12.482Z",
+            "images": [
+                "https://loremflickr.com/800/600/transport?lock=35306",
+                "https://loremflickr.com/800/600/transport?lock=5110",
+                "https://loremflickr.com/800/600/transport?lock=76548"
+            ]
+        },
+        {
+            "id": 14,
+            "userId": 4,
+            "title": "Inventore ex iste nostrum eligendi ut dolores nobis facilis culpa.",
+            "body": "Quos alias deleniti. Repellat quidem architecto perspiciatis debitis necessitatibus quidem consequatur asperiores. Natus ad sed distinctio quo beatae qui.",
+            "category": "abstract",
+            "publicationDate": "2023-01-08T15:47:10.130Z",
+            "images": [
+                "https://loremflickr.com/800/600/abstract?lock=70607",
+                "https://loremflickr.com/800/600/abstract?lock=41636",
+                "https://loremflickr.com/800/600/abstract?lock=49634"
+            ]
+        },
+        {
+            "id": 15,
+            "userId": 4,
+            "title": "Quam ipsum quae.",
+            "body": "Sapiente dicta necessitatibus nobis debitis. Quod suscipit in provident commodi voluptates. Fuga reprehenderit repellendus a numquam nam facilis nostrum. Id eos debitis libero veniam rem. Voluptatibus veritatis nihil corrupti ad.",
+            "category": "technics",
+            "publicationDate": "2022-06-27T15:36:20.372Z",
+            "images": [
+                "https://loremflickr.com/800/600/technics?lock=40860",
+                "https://loremflickr.com/800/600/technics?lock=39293",
+                "https://loremflickr.com/800/600/technics?lock=62375",
+                "https://loremflickr.com/800/600/technics?lock=93017",
+                "https://loremflickr.com/800/600/technics?lock=75057"
+            ]
+        },
+        {
+            "id": 16,
+            "userId": 4,
+            "title": "Laudantium necessitatibus ipsum.",
+            "body": "Expedita qui neque accusamus optio at sit. Ipsa tenetur suscipit ea atque explicabo quibusdam atque consectetur. Dolorum illum nostrum corporis nulla laboriosam veritatis quis minus sit. Nihil eveniet quos maiores porro incidunt deleniti minima assumenda. Deserunt consequuntur animi id temporibus quia nulla.",
+            "category": "people",
+            "publicationDate": "2023-03-23T09:27:19.684Z",
+            "images": [
+                "https://loremflickr.com/800/600/people?lock=89818",
+                "https://loremflickr.com/800/600/people?lock=89165",
+                "https://loremflickr.com/800/600/people?lock=10942",
+                "https://loremflickr.com/800/600/people?lock=18753"
+            ]
         }
     ]
-  }
+}

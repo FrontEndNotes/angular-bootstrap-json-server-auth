@@ -7,7 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  items$ = this.http.get<any>('http://localhost:3000/users')
+  users$ = this.http.get<any>('http://localhost:3000/users');
+  posts$ = this.http.get<any>('http://localhost:3000/posts');
 
   constructor(private http: HttpClient) {}
 }
