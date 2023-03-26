@@ -1,5 +1,6 @@
 <div class="bg-light">
     <div class="container p-4">
+        <router-outlet></router-outlet>
 
         <!-- users -->
         <div class="" *ngIf="users$ | async as users">
@@ -9,20 +10,20 @@
                 </svg>
                 Users
             </h2>
-        
+
             <!-- user -->
-            <div class="d-flex justify-content-start">
-                <div class="card me-4 shadow" style="width: 20%" *ngFor="let user of users">
+            <div class="d-flex justify-content-start flex-wrap">
+                <div class="card me-4 mb-4 shadow" style="width: 12rem" *ngFor="let user of users">
                     <img [src]="user.avatar" alt="" class="card-img-top">
                     <div class="card-body">
-                      <h5 class="card-title">{{ user.fullName }}</h5>
-                      <p class="card-text">{{ user.username }}</p>
-                      <p>{{ user.bio }}</p>
+                        <h5 class="card-title">{{ user.fullName }}</h5>
+                        <p class="card-text">{{ user.username }}</p>
+                        <p>{{ user.bio }}</p>
                     </div>
-                  </div>
+                </div>
             </div>
         </div>
-        
+
         <!-- posts -->
         <div class="pt-5" *ngIf="posts$ | async as posts">
             <h2>
@@ -31,14 +32,14 @@
                 </svg>
                 Posts
             </h2>
-        
+
             <div class="row">
                 <div class="col-12 col-xl-6 mb-4" *ngFor="let post of posts">
-        
+
                     <!-- card -->
                     <div class="card h-100 shadow">
                         <div class="card-body">
-        
+
                             <!-- category -->
                             <div class="d-flex justify-content-between mb-2">
                                 <span class="badge text-bg-dark">{{ post.category }}</span>
@@ -46,22 +47,22 @@
                                     {{ post.publicationDate | date: 'yyy.MM.dd' }}
                                 </span>
                             </div>
-        
+
                             <h3 class="card-title">
                                 {{ post.title }}
                             </h3>
-        
+
                             <!-- images -->
                             <div class="d-flex my-4">
                                 <img [src]="image" alt="" style="width: 20%" *ngFor="let image of post.images">
                             </div>
-        
+
                             <p class="card-text">
                                 {{ post.body }}
                             </p>
-        
+
                         </div>
-        
+
                     </div>
                 </div>
             </div>
