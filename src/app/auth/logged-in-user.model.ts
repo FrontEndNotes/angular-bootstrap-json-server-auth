@@ -3,7 +3,7 @@ export interface LoggedInUser {
     user: User;
 }
 
-interface Post {
+export interface Post {
     id: number;
     userId: number;
     title: string;
@@ -13,7 +13,7 @@ interface Post {
     images: string[];
 }
 
-interface User {
+export interface User {
     id: number;
     fullName: string;
     birthDate: string;
@@ -23,4 +23,11 @@ interface User {
     password: string;
     passwordText: string;
     bio: string;
+}
+
+export interface LoggedInUserToken {
+    email: string;
+    iat: number;
+    exp: number;
+    sub: string;
 }

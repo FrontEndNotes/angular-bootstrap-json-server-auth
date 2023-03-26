@@ -1,0 +1,21 @@
+<!-- users -->
+<ng-container *ngIf="users$ | async as users">
+    <h2 class="d-flex align-items-center pb-5">
+        <svg class="bi me-2" style="width: 2rem; height: 2rem">
+            <use xlink:href="bootstrap-icons.svg#person" />
+        </svg>
+        Users
+    </h2>
+
+    <!-- user -->
+    <div class="d-flex justify-content-start flex-wrap">
+        <div class="card me-4 mb-4 shadow" style="width: 12rem" *ngFor="let user of users">
+            <img [src]="user.avatar" alt="" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">{{ user.fullName }}</h5>
+                <p class="card-text">{{ user.username }}</p>
+                <p>{{ user.bio }}</p>
+            </div>
+        </div>
+    </div>
+</ng-container>
