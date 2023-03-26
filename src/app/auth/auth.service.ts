@@ -4,13 +4,12 @@ import { BehaviorSubject, Observable, of } from 'rxjs';
 import { catchError, map, shareReplay } from 'rxjs/operators';
 import { JwtHelperService } from '@auth0/angular-jwt';
 
-import { LoggedInUser, LoggedInUserToken, User } from './logged-in-user.model';
+import { LoggedInUser, LoggedInUserToken } from './logged-in-user.model';
 
 @Injectable({
     providedIn: 'root'
 })
 export class AuthService {
-    private apiUrl = 'http://localhost:3000';
     private jwtHelper = new JwtHelperService();
 
     private isAuth = new BehaviorSubject<boolean>(!!this.getToken());
@@ -19,7 +18,7 @@ export class AuthService {
     constructor(private http: HttpClient) { }
 
     login(email: string, password: string): Observable<boolean | string> {
-        return this.http.post<LoggedInUser>(`${this.apiUrl}/login`, { email, password }).pipe(
+        return this.http.post<LoggedInUser>(`/login`, { email, password }).pipe(
             map(response => {
                 console.log(response)
                 const token = response.accessToken;

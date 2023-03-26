@@ -32,13 +32,9 @@
                 "output": "/"
               }
             ],
-            "styles": [
-              "src/styles.scss"
-            ],
+            "styles": ["src/styles.scss"],
             "stylePreprocessorOptions": {
-                "includePaths": [
-                    "node_modules/bootstrap/scss"
-                ]
+              "includePaths": ["node_modules/bootstrap/scss"]
             },
             "scripts": []
           },
@@ -71,6 +67,20 @@
               "extractLicenses": false,
               "sourceMap": true,
               "namedChunks": true
+            },
+            "local": {
+              "buildOptimizer": false,
+              "optimization": false,
+              "vendorChunk": true,
+              "extractLicenses": false,
+              "sourceMap": true,
+              "namedChunks": true,
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.local.ts"
+                }
+              ]
             }
           },
           "defaultConfiguration": "production"
@@ -83,6 +93,10 @@
             },
             "development": {
               "browserTarget": "angular15-json-server:build:development"
+            },
+
+            "local": {
+              "browserTarget": "angular15-json-server:build:local"
             }
           },
           "defaultConfiguration": "development"
@@ -101,13 +115,8 @@
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
             "inlineStyleLanguage": "scss",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
-            "styles": [
-              "src/styles.scss"
-            ],
+            "assets": ["src/favicon.ico", "src/assets"],
+            "styles": ["src/styles.scss"],
             "scripts": []
           }
         }
