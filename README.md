@@ -13,14 +13,14 @@ This is a project built with Angular 15.2.4 and Bootstrap 5.2 that uses a local 
 
 The following scripts are available in package.json:
 
-`start`: Starts the Angular development server.
-`build`: Builds the Angular project.
-`watch`: Builds the Angular project and watches for changes in development mode.
-`generate-db`: Generates a new `db.json` file with sample data.
-`new-db`: Generates a new `db.json` file with sample data and starts the `json-server` with `json-server-auth`.
-`db`: Starts the json-server with `json-server-auth`.
-`new-all`: Concurrently runs npm run `new-db`and `ng serve`.
-`all`: Concurrently runs npm run db and `ng serve`.
+- `start`: Starts the Angular development server.
+- `build`: Builds the Angular project.
+- `watch`: Builds the Angular project and watches for changes in development mode.
+- `generate-db`: Generates a new `db.json` file with sample data.
+- `new-db`: Generates a new `db.json` file with sample data and starts the `json-server` with `json-server-auth`.
+- `db`: Starts the json-server with `json-server-auth`.
+- `new-all`: Concurrently runs npm run `new-db`and `ng serve`.
+- `all`: Concurrently runs npm run db and `ng serve`.
 
 ## Running the Application
 
