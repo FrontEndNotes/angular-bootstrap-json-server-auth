@@ -7,11 +7,15 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LoginComponent } from './auth/login/login.component';
 import { LogoutComponent } from './auth/logout/logout.component';
+import { PostsComponent } from './posts/posts/posts.component';
+import { UsersComponent } from './users/users/users.component';
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    LogoutComponent
+    LogoutComponent,
+    PostsComponent,
+    UsersComponent
   ],
   imports: [
     BrowserModule,
